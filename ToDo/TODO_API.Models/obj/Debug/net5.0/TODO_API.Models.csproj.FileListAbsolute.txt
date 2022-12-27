@@ -1,0 +1,12 @@
+D:\Source\Repos\TODO\TODO_API.Models\bin\Debug\net5.0\TODO_API.Models.deps.json
+D:\Source\Repos\TODO\TODO_API.Models\bin\Debug\net5.0\TODO_API.Models.dll
+D:\Source\Repos\TODO\TODO_API.Models\bin\Debug\net5.0\ref\TODO_API.Models.dll
+D:\Source\Repos\TODO\TODO_API.Models\bin\Debug\net5.0\TODO_API.Models.pdb
+D:\Source\Repos\TODO\TODO_API.Models\obj\Debug\net5.0\TODO_API.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\TODO\TODO_API.Models\obj\Debug\net5.0\TODO_API.Models.AssemblyInfoInputs.cache
+D:\Source\Repos\TODO\TODO_API.Models\obj\Debug\net5.0\TODO_API.Models.AssemblyInfo.cs
+D:\Source\Repos\TODO\TODO_API.Models\obj\Debug\net5.0\TODO_API.Models.csproj.CoreCompileInputs.cache
+D:\Source\Repos\TODO\TODO_API.Models\obj\Debug\net5.0\TODO_API.Models.dll
+D:\Source\Repos\TODO\TODO_API.Models\obj\Debug\net5.0\ref\TODO_API.Models.dll
+D:\Source\Repos\TODO\TODO_API.Models\obj\Debug\net5.0\TODO_API.Models.pdb
+D:\Source\Repos\ToDo\TODO_API.Models\obj\Debug\net5.0\TODO_API.Models.csproj.AssemblyReference.cache

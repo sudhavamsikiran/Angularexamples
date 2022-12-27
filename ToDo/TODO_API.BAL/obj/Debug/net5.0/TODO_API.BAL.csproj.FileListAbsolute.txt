@@ -1,0 +1,17 @@
+D:\Source\Repos\TODO\TODO_API.BAL\bin\Debug\net5.0\TODO_API.BAL.deps.json
+D:\Source\Repos\TODO\TODO_API.BAL\bin\Debug\net5.0\TODO_API.BAL.dll
+D:\Source\Repos\TODO\TODO_API.BAL\bin\Debug\net5.0\ref\TODO_API.BAL.dll
+D:\Source\Repos\TODO\TODO_API.BAL\bin\Debug\net5.0\TODO_API.BAL.pdb
+D:\Source\Repos\TODO\TODO_API.BAL\bin\Debug\net5.0\TODO_API.DAL.dll
+D:\Source\Repos\TODO\TODO_API.BAL\bin\Debug\net5.0\TODO_API.Models.dll
+D:\Source\Repos\TODO\TODO_API.BAL\bin\Debug\net5.0\TODO_API.DAL.pdb
+D:\Source\Repos\TODO\TODO_API.BAL\bin\Debug\net5.0\TODO_API.Models.pdb
+D:\Source\Repos\TODO\TODO_API.BAL\obj\Debug\net5.0\TODO_API.BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\TODO\TODO_API.BAL\obj\Debug\net5.0\TODO_API.BAL.AssemblyInfoInputs.cache
+D:\Source\Repos\TODO\TODO_API.BAL\obj\Debug\net5.0\TODO_API.BAL.AssemblyInfo.cs
+D:\Source\Repos\TODO\TODO_API.BAL\obj\Debug\net5.0\TODO_API.BAL.csproj.CoreCompileInputs.cache
+D:\Source\Repos\TODO\TODO_API.BAL\obj\Debug\net5.0\TODO_API.BAL.csproj.CopyComplete
+D:\Source\Repos\TODO\TODO_API.BAL\obj\Debug\net5.0\TODO_API.BAL.dll
+D:\Source\Repos\TODO\TODO_API.BAL\obj\Debug\net5.0\ref\TODO_API.BAL.dll
+D:\Source\Repos\TODO\TODO_API.BAL\obj\Debug\net5.0\TODO_API.BAL.pdb
+D:\Source\Repos\ToDo\TODO_API.BAL\obj\Debug\net5.0\TODO_API.BAL.csproj.AssemblyReference.cache

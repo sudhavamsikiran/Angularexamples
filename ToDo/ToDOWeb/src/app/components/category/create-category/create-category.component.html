@@ -1,0 +1,39 @@
+<div>
+    <h4>Create Category</h4>
+    <form [formGroup]="createCategoryForm">
+        <div class="formField mb-3">
+            <div class="row">
+                <div class="col-md-2">
+                    <label>Category Name</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" formControlName="newcategoryNM" id="newcategoryNM"
+                        [formGroup]="createCategoryForm" value={{this.newCategoryName}} />
+                </div>
+                 
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <label>Description</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" formControlName="categoryDescription" id="categoryDescription"
+                        [formGroup]="createCategoryForm" value={{this.newcategoryDescription}} />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <button class="m-3 btn btn-sm btn-danger" (click)="CreateCategory()">
+                    Create Product 
+                  </button>
+                </div>
+                <div class="col-md-6">
+                  <button class="m-3 btn btn-sm btn-danger">
+                    Cancel
+                  </button>
+                </div>
+          
+              </div>
+        </div>
+    </form>
+</div>

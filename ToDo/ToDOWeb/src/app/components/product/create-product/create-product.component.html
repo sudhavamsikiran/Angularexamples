@@ -1,0 +1,55 @@
+<div>
+    <h4>Create Product</h4>
+    <form [formGroup]="createproductform">
+        <div class="formField mb-3">
+            <div class="row">
+                <div class="col-md-2">
+                    <label>Product Name</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" formControlName="newproductNM" id="newproductNM"
+                        [formGroup]="createproductform" value={{this.newProductName}} />
+                </div>
+                 
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <label>category</label>
+                </div>
+                <div class="col-md-4">
+                    <select class="custom-select" id="categoryDetailsList" name="categoryDetailsList"
+                        formControlName="categoryDetailsList" appearance="fill" [formGroup]="createproductform">
+                        <option *ngFor="let cat of categoryData;let i=index" value={{cat.categoryName}}>
+                            {{cat.categoryName}}
+                        </option>
+                        <option *ngIf="categoryData?.length==0" value="0">--No Records</option>
+                    </select>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-2">
+                    <label>Unit Price</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" formControlName="unitPrice" id="unitPrice"
+                        [formGroup]="createproductform" value={{this.newProductUnitprice}} />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <button class="m-3 btn btn-sm btn-danger" (click)="CreateProduct()">
+                    Create Product 
+                  </button>
+                </div>
+                <div class="col-md-6">
+                  <button class="m-3 btn btn-sm btn-danger">
+                    Cancel
+                  </button>
+                </div>
+          
+              </div>
+        </div>
+    </form>
+
+
+</div>

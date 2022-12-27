@@ -1,0 +1,75 @@
+<div>
+    <h4>Update Product</h4>
+    <form [formGroup]="updateproductform">
+        <div class="formField mb-3">
+            <div class="row">
+                <div class="col-md-2">
+                    <label>Product ID</label>
+                </div>
+                <div class="col-md-4">
+                    <p>{{retrievedProductID}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <label>Product Name</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" formControlName="updatedproductName" id="updatedproductName"
+                        [formGroup]="updateproductform" value={{this.retrievedProductCategory}} />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <label>category</label>
+                </div>
+                <div class="col-md-4">
+                    <select class="custom-select" id="categoryDetailsList" name="categoryDetailsList"
+                        formControlName="categoryDetailsList" appearance="fill" [formGroup]="updateproductform">
+                        <!-- <option *ngFor="let cat of categoryData" value= cat.categoryID>
+                        {{cat.categoryName}}
+                    </option> -->
+                        <option *ngFor="let cat of categoryData;let i=index" value={{cat.categoryName}}>
+                            {{cat.categoryName}}
+                        </option>
+                        <option *ngIf="categoryData?.length==0" value="0">--No Records</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <label>Description</label>
+                </div>
+                <div class="col-md-4">
+                    <!-- <input type="text" class="form-control" formControlName="categoryDescription" id="categoryDescription"
+                        [formGroup]="updateproductform" value={{this.retrievedProductDescription}} /> -->
+                        <p>{{retrievedCategoryDescription}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <label>Unit Price</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" formControlName="unitPrice" id="unitPrice"
+                        [formGroup]="updateproductform" value={{this.retrievedProductUnitprice}} />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <button class="m-3 btn btn-sm btn-danger" (click)="UpdateProduct()">
+                    Update Product Information
+                  </button>
+                </div>
+                <div class="col-md-6">
+                  <button class="m-3 btn btn-sm btn-danger">
+                    Cancel
+                  </button>
+                </div>
+          
+              </div>
+        </div>
+    </form>
+
+
+</div>
